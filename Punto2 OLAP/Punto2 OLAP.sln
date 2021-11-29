@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "COVID_OLAP", "COVID_OLAP\COVID_OLAP.dwproj", "{E5CDCFA3-F742-49B5-9CDF-B0B5A46A375C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5CDCFA3-F742-49B5-9CDF-B0B5A46A375C}.Development|Default.ActiveCfg = Development
+		{E5CDCFA3-F742-49B5-9CDF-B0B5A46A375C}.Development|Default.Build.0 = Development
+		{E5CDCFA3-F742-49B5-9CDF-B0B5A46A375C}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {266F5023-7592-4165-B833-74B2DBA6755B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,404 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="355a23a5-efde-4244-9c39-369fb7625518" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Covid Mov</ID>
+  <Name>Covid Mov</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5346" scrolltop="-3680" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="19389" y="12361" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Covid_movilidad" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="8657" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d121000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Covid_movilidad" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5346</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3680</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="f612cd2e-b83c-47ab-8d20-a0b7f1b26fd8">
+      <ID>Covid Movilidad</ID>
+      <Name>Covid Movilidad</Name>
+      <DimensionID>Covid Movilidad</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ff70f8aa-af25-4431-a73e-284ffb3f4d3c">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="607be423-0d9c-430a-aeb0-5dcc51d73a5a">
+          <AttributeID>Country Region Code</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="99dd3775-134c-4ac8-b550-46e640e0a52c">
+          <AttributeID>Country Region</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ca90c706-682b-4498-bac3-425470c4fd37">
+          <AttributeID>Sub Region 1</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2b9aa4f1-8ef7-480b-8378-1e6c7a0d6357">
+          <AttributeID>Sub Region 2</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="8f046103-3929-4700-8273-d92fd476198f">
+      <ID>Covid Movilidad 1</ID>
+      <Name>Covid Movilidad 1</Name>
+      <DimensionID>Covid Movilidad 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e36d32c1-0816-4dfc-85c1-8686bf92d626">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4c9f285e-2e37-42ef-8976-17c5aacb7e9d">
+          <AttributeID>Date</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="beb634d4-1401-4b2d-9fa2-3c766695fa3e">
+          <AttributeID>Retail And Recreation Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c182c301-354c-435b-9c71-b3c103a57cde">
+          <AttributeID>Grocery And Pharmacy Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="15238b7b-e9b5-4e54-9b59-9f0063f58162">
+          <AttributeID>Parks Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3f719e43-4d4e-4973-8233-48b65a70e312">
+          <AttributeID>Transit Stations Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2f120aee-2d2f-43e7-b279-d69498fe1498">
+          <AttributeID>Workplaces Percent Change From Baseline</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e28971a2-b2db-42d7-940d-6bbc63fd41d1">
+          <AttributeID>Residential Percent Change From Baseline</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d5764d2d-2e1b-4a36-a5c1-146d57b45f2a">
+      <ID>Covid Movilidad 2</ID>
+      <Name>Covid Movilidad 2</Name>
+      <DimensionID>Covid Movilidad 2</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9f882640-4e76-4d7d-95ce-acc4dcd38072">
+          <AttributeID>Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="3c891ccd-1abf-4937-8847-9a190c7bbffc">
+      <ID>Covid Movilidad</ID>
+      <Name>Covid Movilidad</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="81f4ea51-d0bc-471e-bffb-0b6756093483">
+          <ID>Id</ID>
+          <Name>Id</Name>
+          <Source dwd:design-time-name="20d436c6-4b31-4186-93f3-bc3541f583e8">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f86a748f-07da-4cbf-b7c6-8689511602fa">
+              <TableID>dbo_Covid_movilidad</TableID>
+              <ColumnID>id</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d47f8b00-a38a-40e8-a242-d2ef3dcce96c">
+          <ID>Retail And Recreation Percent Change From Baseline</ID>
+          <Name>Retail And Recreation Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="554a3141-0685-46c8-9f0a-d8b46980379f">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2c388c12-66ae-4437-948d-d7b6cb9c90d4">
+              <TableID>dbo_Covid_movilidad</TableID>
+              <ColumnID>retail_and_recreation_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a046d2fe-0aa9-4995-88f3-8e395a1afddd">
+          <ID>Grocery And Pharmacy Percent Change From Baseline</ID>
+          <Name>Grocery And Pharmacy Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="3b16573c-8902-4459-b8a2-d9b1ce417a18">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f9df7178-46e2-4ba3-b0c1-3061369269b7">
+              <TableID>dbo_Covid_movilidad</TableID>
+              <ColumnID>grocery_and_pharmacy_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="9b8717ef-0e04-4b05-a868-f9a148e8a303">
+          <ID>Parks Percent Change From Baseline</ID>
+          <Name>Parks Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="e9d58d28-d1d3-4f58-bf9c-d671c5d160fa">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e46f9aa1-79ca-4c6f-a509-2ea19fd16bda">
+              <TableID>dbo_Covid_movilidad</TableID>
+              <ColumnID>parks_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6fc3619d-05fc-44af-9a99-1478e86bc893">
+          <ID>Transit Stations Percent Change From Baseline</ID>
+          <Name>Transit Stations Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="4b2c4f18-2001-4e88-8371-cd356a1aa187">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="df00956b-2b02-4f83-ab10-155f2c73c719">
+              <TableID>dbo_Covid_movilidad</TableID>
+              <ColumnID>transit_stations_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="5cd1f4af-0172-4310-aa11-620934695d55">
+          <ID>Workplaces Percent Change From Baseline</ID>
+          <Name>Workplaces Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="23d72a1e-c0d3-4fd3-8ec7-2e44ba1edecd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5f4c406d-814b-4d00-ae21-92f6582e068e">
+              <TableID>dbo_Covid_movilidad</TableID>
+              <ColumnID>workplaces_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b9550f4a-29bc-4ee5-a019-0389b7827da5">
+          <ID>Residential Percent Change From Baseline</ID>
+          <Name>Residential Percent Change From Baseline</Name>
+          <Source dwd:design-time-name="d1465b14-666a-40ea-94be-09ddc40bdd71">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9d40a3bb-15f1-4417-b403-6e8b1f2defdc">
+              <TableID>dbo_Covid_movilidad</TableID>
+              <ColumnID>residential_percent_change_from_baseline</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="67d3ca8e-acfc-4cae-8ddf-3c5efcc66681">
+          <ID>Covid Movilidad Count</ID>
+          <Name>Covid Movilidad Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="3b52ee25-edfe-48d5-b8a5-8dded586d2f7">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="a4fb0b4f-677f-4596-bbb1-2b857b1927f9">
+              <TableID>dbo_Covid_movilidad</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="27b057bf-5a15-4e11-b246-0355b51a1c60">
+          <ID>Covid Movilidad Count 1</ID>
+          <Name>Covid Movilidad Count 1</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="bc07938c-a60c-4a30-88d3-22f40fb215ea">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="970892a6-f999-4183-9abd-17ecb414c129">
+              <TableID>dbo_Covid_movilidad</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="ece72884-36e7-433f-9afa-793714a49c10">
+          <CubeDimensionID>Covid Movilidad</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6bd3c5ff-6d88-4a25-bd91-1774d4b808b8">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="65e50ca0-c0a3-420a-9de3-710c14239273">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="aea0ef45-513b-4136-b22c-40efeca6f5d9">
+                    <TableID>dbo_Covid_movilidad</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="22f0d58c-e61a-45a3-9988-8037b3a5b13d">
+          <CubeDimensionID>Covid Movilidad 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="73b204b3-02c4-4d67-b256-3c24a4463d80">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b6e80326-0588-4f3e-9549-94cf85bd5254">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a42c2bad-d719-43de-8a87-481475d4b51b">
+                    <TableID>dbo_Covid_movilidad</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bd791023-916b-4a8e-8495-9c9975f00cef">
+          <CubeDimensionID>Covid Movilidad 2</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="89641f00-7d24-40e6-82d0-216d31718103">
+              <AttributeID>Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d3cbecbd-9a8c-4f3d-9e43-9d3540d5bfc1">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5310026e-634e-40b0-9c2a-8424981cca1b">
+                    <TableID>dbo_Covid_movilidad</TableID>
+                    <ColumnID>id</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f5a3cf51-f42b-48bc-95ca-2c0ee3cb036d">
+                  <DataType>WChar</DataType>
+                  <DataSize>50</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e1cf5e07-9f14-4c0d-89b6-80b65c2abf39">
+                    <TableID>dbo_Covid_movilidad</TableID>
+                    <ColumnID>country_region</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="02bcecfc-10df-4df6-91ac-73b99783f57a">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="10e67d50-020a-46df-8f6e-49504194cca8">
+                    <TableID>dbo_Covid_movilidad</TableID>
+                    <ColumnID>date</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="da347e12-1e6b-437e-861a-16052e9ed386">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="82975a98-c7c6-4367-ad04-def9caa272fe">
+                    <TableID>dbo_Covid_movilidad</TableID>
+                    <ColumnID>retail_and_recreation_percent_change_from_baseline</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="8b1b2e7a-996b-4a3a-9200-ffd1a78f0d85">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f5122d93-31b0-4952-bf97-3c483647cb4c">
+                    <TableID>dbo_Covid_movilidad</TableID>
+                    <ColumnID>grocery_and_pharmacy_percent_change_from_baseline</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="5ceb35fd-0efe-4811-ba2f-f56bccd5ecd9">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f78a36ae-3ad6-4388-a5fc-57db051eb5b4">
+                    <TableID>dbo_Covid_movilidad</TableID>
+                    <ColumnID>parks_percent_change_from_baseline</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="0077e390-000b-4dd3-aafd-7ae45b53d0f4">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fafd224d-0f6d-4991-95f9-4b33fc5c6c52">
+                    <TableID>dbo_Covid_movilidad</TableID>
+                    <ColumnID>transit_stations_percent_change_from_baseline</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c3c85bd0-570a-4735-9b6e-b12528cb7837">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e20e5f63-dca2-465f-baae-1330eafe7d42">
+                    <TableID>dbo_Covid_movilidad</TableID>
+                    <ColumnID>workplaces_percent_change_from_baseline</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="3a9cc891-cfd6-44af-ad16-7ed46f11396d">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="296b8932-524c-477c-a086-09efd616fef1">
+                    <TableID>dbo_Covid_movilidad</TableID>
+                    <ColumnID>residential_percent_change_from_baseline</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="cff63663-4131-41c1-86bf-19fe5a050b4b">
+    <DataSourceViewID>Covid Mov</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="acc6a61f-9741-4350-abd2-5a115f9ec538">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE; 
+CREATE MEMBER CURRENTCUBE.[Measures].Super_Farmacia_Promedio
+ AS [Measures].[Grocery And Pharmacy Percent Change From Baseline]/[Measures].[Covid Movilidad Count], 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].Parques_Promedio
+ AS [Measures].[Parks Percent Change From Baseline]/[Measures].[Covid Movilidad Count], 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].Residencial_Promedio
+ AS [Measures].[Residential Percent Change From Baseline]/[Measures].[Covid Movilidad Count], 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].Comercio_Turismo_Promedio
+ AS [Measures].[Retail And Recreation Percent Change From Baseline]/[Measures].[Covid Movilidad Count], 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].Transito_Promedio
+ AS [Measures].[Transit Stations Percent Change From Baseline]/[Measures].[Covid Movilidad Count], 
+VISIBLE = 1  ; 
+CREATE MEMBER CURRENTCUBE.[Measures].Trabajo_Promedio
+ AS [Measures].[Workplaces Percent Change From Baseline]/[Measures].[Covid Movilidad Count], 
+VISIBLE = 1  ; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+</Cube>
